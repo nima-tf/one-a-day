@@ -1,5 +1,5 @@
-from Utils.undo import Undo
 import random
+from Utils.undo import Undo
 
 
 def main():
