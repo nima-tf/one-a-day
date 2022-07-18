@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Stack:
     def __init__(self) -> None:
         self.elements = []
@@ -22,7 +21,7 @@ class Stack:
     
     def pop(self):
         if self.isEmpty():
-            raise Exception("Stack already empty.")
+            raise Exception("Empty stack.")
         else:
             self.__top -= 1
             return self.elements.pop()

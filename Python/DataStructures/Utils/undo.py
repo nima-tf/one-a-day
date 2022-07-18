@@ -1,6 +1,5 @@
 from Structures.stack import Stack
 
-
 class Undo:
     def __init__(self) -> None:
         self.action_memory = Stack()

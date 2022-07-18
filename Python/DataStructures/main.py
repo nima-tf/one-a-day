@@ -1,7 +1,6 @@
 import random
 from Utils.undo import Undo
 
-
 def main():
     action_history_manager = Undo()
     for i in range(10):
